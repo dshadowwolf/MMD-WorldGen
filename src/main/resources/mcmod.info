@@ -1,0 +1,16 @@
+[
+ {
+   "modid": "mmdworldgen",
+   "name": "MMD World Gen",
+   "description": "Custom World Generation, Complete Control in the Users Hands",
+   "version": "${version}",
+   "mcversion": "${mcversion}",
+   "url": "https://github.com/MinecraftModDevelopmentMods/MMDWorldGen",
+   "updateUrl": "",
+   "authorList": ["dshadowwolf"],
+   "credits": "",
+   "logoFile": "",
+   "screenshots": [],
+   "dependencies": []
+ }
+]
