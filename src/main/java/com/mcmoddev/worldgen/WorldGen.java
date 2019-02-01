@@ -1,5 +1,8 @@
 package com.mcmoddev.worldgen;
 
+import javax.script.ScriptEngine;
+import javax.script.ScriptEngineManager;
+
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
@@ -67,6 +70,12 @@ public final class WorldGen {
 		private static final WorldGen INSTANCE = new WorldGen();
 	}
 
+	private static final ScriptEngine engine = new ScriptEngineManager(ClassLoader.getSystemClassLoader()).getEngineByName("nashorn");
+
+	public ScriptEngine scriptEngine() {
+		return engine;
+	}
+	
 	/**
 	 *
 	 * @return The Mod's Instance.

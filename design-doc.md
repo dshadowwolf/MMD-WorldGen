@@ -63,5 +63,24 @@ Design Notes:
     9) MapRegionType (see gen pass #2 in operation description)
     10) BlockRegistry/ItemRegistry in some form ?
     11) User-registered structure gens in some form ?
+  * Top-level class structure:
+    1) Noise
+      * Provides noise functions for use - at this time we've only got the "Notch" ones handy, but more can be added.
+      * Noise.Improved
+      * Noise.Octaves
+      * Noise.Perlin
+      * Noise.Simplex
+    2) Blocks
+      * Provides access to the Block Registry for getting various blocks for placement
+      * has
+      * get
+    3) Items
+      * Provides access to the Item Registry for getting various blocks for placement
+      * has
+      * get
+    4)Chunk
+      * Access to the currently under work chunk
+      * setBlockState
+  * Non-final for any listed part, this is a rough outline
   * The rest of the API is To Be Determined
-    
+  
