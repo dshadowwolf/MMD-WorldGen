@@ -3,7 +3,7 @@ package com.mcmoddev.worldgen;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
-import com.mcmoddev.examplemod.proxy.Proxy;
+import com.mcmoddev.worldgen.proxy.Proxy;
 
 import net.minecraft.world.World;
 import net.minecraftforge.fml.common.Mod;

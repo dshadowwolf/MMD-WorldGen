@@ -1,4 +1,4 @@
 /**
  *
  */
-package com.mcmoddev.examplemod.proxy;
+package com.mcmoddev.worldgen.proxy;
