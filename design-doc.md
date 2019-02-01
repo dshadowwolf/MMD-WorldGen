@@ -42,5 +42,26 @@ Design Notes:
   ```
   
   JS API:
-    To Be Determined
+  * Needs (3 thru 6 as constants?):
+    1) DimensionType object (expose DimensionType.register)
+    2) NoiseProvider
+       1) NoiseGenerator (base in some form)
+       2) NoiseGeneratorImproved
+       3) NoiseGeneratorOctaves
+       4) NoiseGeneratorPerlin
+       5) NoiseGeneratorSimplex
+    3) MapGen
+       1) MapGenBase (duh)
+       2) MapGenCaves
+       3) MapGenCavesHell
+       4) MapGenRavine
+    4) any/all of net.minecraft.world.gen.feature
+    5) any/all of net.minecraft.world.gen.structure
+    6) any/all of net.minecraft.world.gen.layer
+    7) net.minecraft.world.chunk.ChunkPrimer (in some form)
+    8) net.minecraft.world.biome.* (in some form)
+    9) MapRegionType (see gen pass #2 in operation description)
+    10) BlockRegistry/ItemRegistry in some form ?
+    11) User-registered structure gens in some form ?
+  * The rest of the API is To Be Determined
     
