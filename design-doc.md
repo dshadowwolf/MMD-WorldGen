@@ -83,4 +83,11 @@ Design Notes:
       * setBlockState
   * Non-final for any listed part, this is a rough outline
   * The rest of the API is To Be Determined
+  * Possible noise libs to include:
+    1) flow noise
+    2) accidental noise library
+    3) libnoiseforjava
+    4) joise
+  
+  
   
